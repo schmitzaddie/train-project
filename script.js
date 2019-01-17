@@ -2,12 +2,12 @@
 //MomentJS  
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyAi2KEo7duYfbfa8juaHEV60o1EiWwc55Q",
-    authDomain: "train-project-db860.firebaseapp.com",
-    databaseURL: "https://train-project-db860.firebaseio.com",
-    projectId: "train-project-db860",
-    storageBucket: "train-project-db860.appspot.com",
-    messagingSenderId: "245070673224"
+    apiKey: "AIzaSyB1Yb4xocGy9yLAcJEI8HJ-uSd9d-nGy8I",
+    authDomain: "train-project-3afcd.firebaseapp.com",
+    databaseURL: "https://train-project-3afcd.firebaseio.com",
+    projectId: "train-project-3afcd",
+    storageBucket: "train-project-3afcd.appspot.com",
+    messagingSenderId: "1077898592358"
   };
   firebase.initializeApp(config);
 
@@ -15,10 +15,10 @@ var database = firebase.database();
 
 $("#add-new").on("click", function (event) {
     event.preventDefault();
-    var name = $("#name-input").val().trim();
-    var destination = $("#destination-input").val().trim();
-    var firstTrain = $("#first-train-input").val().trim();
-    var frequency = $("#frequency-input").val().trim();
+    var name = $("#name-input").val();
+    var destination = $("#destination-input").val();
+    var firstTrain = $("#first-train-input").val();
+    var frequency = $("#frequency-input").val();
     //var next = moment;
     //var minutes = monthWorked*rate;
 
